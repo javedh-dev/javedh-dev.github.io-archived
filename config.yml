@@ -1,0 +1,85 @@
+# @format
+
+baseURL: "https://javedh-dev.github.io/"
+title: Javed Hussain
+# logo: "https://via.placeholder.com/500"
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+# copyright: ""
+# enableGitInfo: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: Archives
+      url: archives
+      weight: 2
+    - name: Search
+      url: search/
+      weight: 3
+    - name: Tags
+      url: tags/
+      weight: 4
+    - name: Categories
+      url: categories/
+      weight: 5
+
+params:
+  profileMode:
+    enabled: false
+    # title: "Hi There!!!" # optional default will be site title
+    subtitle: "Hi there 👋, I write about my thoughts and experiences. Hope you would enjoy!!!"
+    imageUrl: "https://via.placeholder.com/500" # optional
+    imageTitle: "Profile picture" # optional
+    buttons:
+      - name: Read More
+        url: "/more"
+
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Javed Hussain
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    comments: true
+
+  homeInfoParams:
+    enabled: true
+    Title: "Welcome visitor 👋"
+    Content: >
+
+      -  Hi there,
+
+      -  I 💖 write about my thoughts 💭 and experiences 👨‍💻 here. 
+
+      -  Hope you would enjoy 😊!!!
+
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/javedh-dev"
+    - name: "Email"
+      url: "mailto:javedh.dev@gmail.com"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/javedh-dev"
