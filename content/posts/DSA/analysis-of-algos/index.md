@@ -5,6 +5,11 @@ draft: false
 latex: true
 tags: [dsa, analysis, interview]
 categories: DSA
+cover:
+    image: "aaa.svg"
+    alt: "Hero Image"
+    caption: "Analysis of algorithms"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 Analyzing algorithms is one of the most important tasks while developing and using an algorithm in an application.
