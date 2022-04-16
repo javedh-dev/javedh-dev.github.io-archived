@@ -38,6 +38,8 @@ menu:
       weight: 5
 
 params:
+  label:
+    text: JH
   profileMode:
     enabled: true
     title: "Javed Hussain" # optional default will be site title
