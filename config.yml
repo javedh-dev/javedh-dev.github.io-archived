@@ -24,8 +24,8 @@ outputs:
 
 menu:
   main:
-    - name: Archives
-      url: archives
+    - name: Blog
+      url: posts/
       weight: 2
     - name: Search
       url: search/
@@ -39,10 +39,18 @@ menu:
 
 params:
   profileMode:
-    enabled: false
+    enabled: true
+    title: "Javed Hussain" # optional default will be site title
+    subtitle: "Software Craftsperson"
+    imageUrl: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+        - name: Resume
+          url: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/Javed_SE_Resume.pdf"
 
   homeInfoParams:
-    enabled: true
+    enabled: false
     Title: "Welcome visitor 👋"
     Content: >
       -  I 💖 to write about my thoughts 💭 and experiences 👨‍💻 here. Hope you would enjoy 😊!!!

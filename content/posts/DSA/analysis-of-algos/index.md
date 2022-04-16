@@ -22,7 +22,7 @@ Algorithm analysis helps in -
 One of the way to analyze algorithms is to implement algorithms and execute on machine to analyze which one runs faster. This approach has multiple flaws like -
 
 -   An algorithm might be faster for one kind of inputs but slower for other.
--   An algo can be faster on one kind of machine and vice-versa
+-   An algo can be faster on one kind of machine and vice versa
 
 That's where concept of asymptotic notation comes into play
 
