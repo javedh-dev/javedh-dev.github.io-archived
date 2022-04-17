@@ -2,3 +2,10 @@
 resources, etc.) - it will appear in the <head></head> section of every page. */ -}} {{- /* Can be
 overwritten by partial with the same name in the global layouts. */ -}} {{- /* Head custom content
 area end */ -}} {{if .Params.latex }}{{ partial "katex.html" . }}{{ end }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+	rel="stylesheet"
+/>
