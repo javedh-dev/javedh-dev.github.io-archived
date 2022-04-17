@@ -38,6 +38,11 @@ menu:
       weight: 5
 
 params:
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  assets:
+    favicon: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg"
   label:
     text: JH
   profileMode:
