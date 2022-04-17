@@ -2,6 +2,7 @@
 title: "Greetings Stranger "
 date: 2022-02-28T09:33:40+05:30
 draft: false
+weight: 1
 ---
 
 <br></br>
