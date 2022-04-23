@@ -1,0 +1,19 @@
+.button {
+    background: tomato;
+}
+
+.button span {
+    color: white !important;
+}
+
+.button:hover {
+    transform: scale(0.96);
+}
+
+a:hover {
+    color: tomato;
+}
+
+.profile_inner span {
+    color: lightslategray;
+}
