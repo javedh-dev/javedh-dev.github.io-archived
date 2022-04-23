@@ -50,8 +50,8 @@ params:
     title: "Javed Hussain" # optional default will be site title
     subtitle: "Software Craftsperson"
     imageUrl: images/avatar.svg
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
     buttons:
         - name: Resume
           url: https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/Javed_SE_Resume.pdf
