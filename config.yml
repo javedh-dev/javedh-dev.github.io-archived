@@ -42,19 +42,19 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   assets:
-    favicon: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg"
+    favicon: https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg
   label:
     text: JH
   profileMode:
     enabled: true
     title: "Javed Hussain" # optional default will be site title
     subtitle: "Software Craftsperson"
-    imageUrl: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg"
+    imageUrl: images/avatar.svg
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
         - name: Resume
-          url: "https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/Javed_SE_Resume.pdf"
+          url: https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/Javed_SE_Resume.pdf
 
   homeInfoParams:
     enabled: false
