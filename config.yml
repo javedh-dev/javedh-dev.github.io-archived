@@ -30,19 +30,19 @@ menu:
     - name: Search
       url: search/
       weight: 3
-    - name: Tags
-      url: tags/
-      weight: 4
-    - name: Categories
-      url: categories/
-      weight: 5
+    # - name: Tags
+    #   url: tags/
+    #   weight: 4
+    # - name: Categories
+    #   url: categories/
+    #   weight: 5
 
 params:
   ShowShareButtons: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
   assets:
-    favicon: https://raw.githubusercontent.com/javedh-dev/javedh-dev.github.io/master/data/avatar.svg
+    favicon: images/avatar.svg
   label:
     text: JH
   profileMode:
@@ -65,7 +65,13 @@ params:
   socialIcons:
     - name: "Github"
       url: "https://github.com/javedh-dev"
-    - name: "Email"
-      url: "mailto:javedh.dev@gmail.com"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/javedh-dev"
+    - name: "Twitter"
+      url: "https://twitter.com/javedh_dev"
+    - name: "Instagram"
+      url: "https://www.instagram.com/javedh.dev/"
+    - name: "Email"
+      url: "mailto:javedh.dev@gmail.com"
+    - name: "Youtube"
+      url: "https://www.youtube.com/channel/UC9ZHPvoBkR5RjrZQqSFtCrQ"
