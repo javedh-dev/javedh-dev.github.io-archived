@@ -1,5 +1,5 @@
 ---
-title: "Setup React project from scartch"
+title: "Setup React project from scratch"
 date: 2022-05-16T07:45:00+05:30
 draft: true
 latex: true

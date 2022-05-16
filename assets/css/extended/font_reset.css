@@ -4,6 +4,10 @@
 	font-family: "Fira Sans", sans-serif !important;
 }
 
+pre{
+	border-radius: 5px;
+}
+
 pre span{
 	font-family: "Fira Code", monospace !important;
 }
