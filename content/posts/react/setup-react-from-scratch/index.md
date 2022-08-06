@@ -1,7 +1,7 @@
 ---
 title: "Setup React project from scratch"
 date: 2022-05-16T07:45:00+05:30
-draft: true
+draft: false
 latex: true
 tags: [react, setup, tech]
 categories: React
@@ -73,7 +73,7 @@ For yarn -
 yarn add -D @babel/core @babel/present-env @babel/preset-react babel-loader
 ```
 
-Now to configure babel, let's create a new file `.babelrc` wit following contents -
+Now to configure babel, let's create a new file `.babelrc` with following contents -
 
 ```json
 {
@@ -83,8 +83,8 @@ Now to configure babel, let's create a new file `.babelrc` wit following content
 
 ### Adding webpack
 
-Now it's time to introduce the most ignored and most important component in any JS frameworks. Webpack does a lot of thing which is a different topic altogether. For now I'll only explain the things we need -
-first things first, let's add the dependencies -
+Now it's time to introduce the most ignored and most important component in any JS frameworks. Webpack does a lot of thing which is a different topic altogether. For now I'll only explain the things we need.
+First things first, let's add the dependencies -
 
 For npm -
 
